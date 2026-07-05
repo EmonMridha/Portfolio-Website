@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Educations = () => {
     return (
@@ -66,7 +65,7 @@ const Educations = () => {
                             </span>
 
                             <h3 className="text-2xl font-semibold mt-2">
-                                Undergraduate Student
+                                Undergraduate Student (since 2024)
                             </h3>
 
                             <p className="text-gray-400 mt-4 leading-7">

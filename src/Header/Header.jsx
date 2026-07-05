@@ -1,16 +1,10 @@
 import { Menu, X } from 'lucide-react';
 import React, { useState } from 'react';
+import { Link } from 'react-router';
 
 const Header = () => {
     const [open, setOpen] = useState(false);
 
-    const navLinks = [
-        "Home",
-        "About",
-        "Skills",
-        "Projects",
-        "Contact",
-    ];
     return (
         <nav>
             <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -22,16 +16,11 @@ const Header = () => {
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex gap-8 font-medium">
-                    {navLinks.map((item) => (
-                        <li key={item}>
-                            <a
-                                href={`#${item.toLowerCase()}`}
-                                className="hover:text-blue-600 transition"
-                            >
-                                {item}
-                            </a>
-                        </li>
-                    ))}
+                   <Link to="/" className="hover:text-blue-900 transition"> Home</Link>
+                   <Link to="/about" className="hover:text-blue-600 transition"> About</Link>
+                   <Link to="/skills" className="hover:text-blue-600 transition"> Skills</Link>
+                   <Link to="/projects" className="hover:text-blue-600 transition"> Projects</Link>
+                   <Link to="/contact" className="hover:text-blue-600 transition"> Contact</Link>
                 </ul>
 
                 {/* Resume Button */}
@@ -53,18 +42,23 @@ const Header = () => {
 
             {/* Mobile Menu */}
             {open && (
-                <div className="md:hidden bg-white shadow-lg">
+                <div className="md:hidden shadow-lg">
                     <ul className="flex flex-col py-4">
-                        {navLinks.map((item) => (
-                            <a
-                                key={item}
-                                href={`#${item.toLowerCase()}`}
-                                className="px-6 py-3 hover:bg-gray-100"
+                        <a className="px-6 py-3 hover:bg-gray-100"
                                 onClick={() => setOpen(false)}
-                            >
-                                {item}
-                            </a>
-                        ))}
+                            > Home</a>
+                        <a className="px-6 py-3 hover:bg-gray-100"
+                                onClick={() => setOpen(false)}
+                            > About</a>
+                        <a className="px-6 py-3 hover:bg-gray-100"
+                                onClick={() => setOpen(false)}
+                            > Skills</a>
+                        <a className="px-6 py-3 hover:bg-gray-100"
+                                onClick={() => setOpen(false)}
+                            > Projects</a>
+                        <a className="px-6 py-3 hover:bg-gray-100"
+                                onClick={() => setOpen(false)}
+                            > Contact</a>
 
                         <a
                             href="/resume.pdf"

@@ -68,13 +68,22 @@ const Contact = () => {
                     </a>
 
                     <a
-                        href="https://facebook.com/yourusername"
+                        href="https://www.facebook.com/emon.mridha.842030"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm p-6 hover:border-cyan-400 hover:-translate-y-2 transition-all duration-300"
                     >
                         <h3 className="text-white font-semibold">Facebook</h3>
                         <p className="text-sm text-gray-400 mt-2">Connect</p>
+                    </a>
+                    <a
+                        
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm p-6 hover:border-cyan-400 hover:-translate-y-2 transition-all duration-300"
+                    >
+                        <h3 className="text-white font-semibold">Phone</h3>
+                        <p className="text-sm text-gray-400 mt-2">01864154680</p>
                     </a>
 
                 </div>
