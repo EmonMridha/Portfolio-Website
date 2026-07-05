@@ -39,9 +39,9 @@ const projects = [
       "Optimize performance and SEO.",
     ],
 
-    github: "https://github.com/yourname/portfolio",
+    github: "https://github.com/EmonMridha/Assignment-11-Server",
 
-    live: "https://portfolio.vercel.app",
+    live: " https://assignment-11-9b7fd.web.app/",
   },
 
   {
@@ -85,9 +85,9 @@ const projects = [
       "Develop a mobile version.",
     ],
 
-    github: "https://github.com/yourname/task",
+    github: "https://github.com/EmonMridha/Assignment-10-Server-2",
 
-    live: "https://task.vercel.app",
+    live: "https://github.com/EmonMridha/Assignment-10-Client",
   },
 
   {
@@ -131,9 +131,9 @@ const projects = [
       "Support multiple languages and currencies.",
     ],
 
-    github: "https://github.com/yourname/shop",
+    github: "https://github.com/EmonMridha/Assignment-10-Server-2",
 
-    live: "https://shop.vercel.app",
+    live: "https://assignment-10-df0af.web.app/",
   },
 ];
 

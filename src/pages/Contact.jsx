@@ -64,7 +64,7 @@ const Contact = () => {
                         className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm p-6 hover:border-cyan-400 hover:-translate-y-2 transition-all duration-300"
                     >
                         <h3 className="text-white font-semibold">Email</h3>
-                        <p className="text-sm text-gray-400 mt-2">Say Hello</p>
+                        <p className="text-sm text-gray-400 mt-2">emonmridha712@gmail.com</p>
                     </a>
 
                     <a

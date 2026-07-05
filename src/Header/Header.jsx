@@ -16,11 +16,12 @@ const Header = () => {
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex gap-8 font-medium">
-                   <Link to="/" className="hover:text-blue-900 transition"> Home</Link>
-                   <Link to="/about" className="hover:text-blue-600 transition"> About</Link>
-                   <Link to="/skills" className="hover:text-blue-600 transition"> Skills</Link>
-                   <Link to="/projects" className="hover:text-blue-600 transition"> Projects</Link>
-                   <Link to="/contact" className="hover:text-blue-600 transition"> Contact</Link>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#education">Education</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
                 </ul>
 
                 {/* Resume Button */}
@@ -45,20 +46,20 @@ const Header = () => {
                 <div className="md:hidden shadow-lg">
                     <ul className="flex flex-col py-4">
                         <a className="px-6 py-3 hover:bg-gray-100"
-                                onClick={() => setOpen(false)}
-                            > Home</a>
+                            onClick={() => setOpen(false)}
+                        > Home</a>
                         <a className="px-6 py-3 hover:bg-gray-100"
-                                onClick={() => setOpen(false)}
-                            > About</a>
+                            onClick={() => setOpen(false)}
+                        > About</a>
                         <a className="px-6 py-3 hover:bg-gray-100"
-                                onClick={() => setOpen(false)}
-                            > Skills</a>
+                            onClick={() => setOpen(false)}
+                        > Skills</a>
                         <a className="px-6 py-3 hover:bg-gray-100"
-                                onClick={() => setOpen(false)}
-                            > Projects</a>
+                            onClick={() => setOpen(false)}
+                        > Projects</a>
                         <a className="px-6 py-3 hover:bg-gray-100"
-                                onClick={() => setOpen(false)}
-                            > Contact</a>
+                            onClick={() => setOpen(false)}
+                        > Contact</a>
 
                         <a
                             href="/resume.pdf"

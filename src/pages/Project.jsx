@@ -107,14 +107,14 @@ const Project = () => {
                 <div className="mt-16 flex flex-wrap gap-5">
 
                     <a
-                        href="#"
+                        href={project.live}
                         className="px-7 py-3 rounded-xl bg-cyan-400 text-black font-semibold hover:bg-cyan-300 transition"
                     >
                         🌐 Live Demo
                     </a>
 
                     <a
-                        href="#"
+                        href={project.github}
                         className="px-7 py-3 rounded-xl border border-cyan-400 text-cyan-400 font-semibold hover:bg-cyan-400 hover:text-black transition"
                     >
                         💻 GitHub Repository
